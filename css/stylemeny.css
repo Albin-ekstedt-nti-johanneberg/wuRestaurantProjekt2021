@@ -9,11 +9,10 @@
     width: 100vw;
     height: 100vh;
     grid-template-columns: 10% 30% 30% 30%;
-    grid-template-rows: 16% 14% 3% 50% 16%;
+    grid-template-rows: 16% 4% 63% 16%;
     grid-template-areas:
     'he he he he'
     's1 d1 d1 d1'
-    's1 d2 d2 d2'
     's1 s2 s2 s2'
     's1 f1 f1 f1'
     ;
