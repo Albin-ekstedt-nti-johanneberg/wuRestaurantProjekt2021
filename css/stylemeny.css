@@ -9,7 +9,7 @@
     width: 100vw;
     height: 100vh;
     grid-template-columns: 10% 30% 30% 30%;
-    grid-template-rows: 16% 4% 63% 16%;
+    grid-template-rows: 16% 5% 200% 16%;
     grid-template-areas:
     'he he he he'
     's1 d1 d1 d1'
@@ -90,14 +90,18 @@
 
 .section2 {
     display: grid;
+    grid-gap: 5px;
     grid-area: s2;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-columns: 50% 50%;
     background-color: lightseagreen;
     grid-template-areas: 
-    'a1 a2'
-    'a3 a4'
+    'a1 a2' 
+    'a3 a4' 
     'a5 a6'
+    'a7 a8' 
+    'a9 a10'
+
     ;
 }
 
@@ -129,6 +133,23 @@
 .article6 {
     grid-area: a6;
     background-color: lightpink;
+}
+
+.article7 {
+    grid-area: a7;
+    background-color: lightpink;
+}
+
+.article8 {
+    grid-area: a8;
+}
+
+.article9 {
+    grid-area: a9;
+}
+
+.article10 {
+    grid-area: a10;
 }
 
 img {
