@@ -204,3 +204,59 @@ top: 12px; right: 40px; */
     background: transparent;
     border: solid 3px black
 }
+
+
+#body2 {
+    display: grid;
+
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 10% 30% 30% 30%;
+    grid-template-rows: 16% 5% 200% 16%;
+    grid-template-areas:
+    'he he he he'
+    's1 d1 d1 d1'
+    's1 s3 s3 s3'
+    's1 f1 f1 f1'
+    ;
+
+}
+
+.section3 {
+    display: grid;
+    grid-gap: 5px;
+    grid-area: s3;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-columns: 50% 50%;
+    background-color: lightseagreen;
+    grid-template-areas: 
+    'a1 a2' 
+    'a3 a4' 
+    'a5 a6'
+    'a7 a8' 
+    'a9 a10'
+
+    ;
+}
+
+
+#body3 {
+    display: grid;
+    
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 10% 30% 30% 30%;
+    grid-template-rows: 16% 8% 3% 57% 16%;
+    grid-template-areas:
+    'he he he he'
+    's1 d1 d1 d1'
+    's1 d2 d2 d2'
+    's1 d3 d3 d3'
+    's1 f1 f1 f1'
+    ;
+
+}
+
+.div3 {
+    grid-area: d3;
+}
