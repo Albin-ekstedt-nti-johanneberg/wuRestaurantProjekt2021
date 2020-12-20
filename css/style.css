@@ -35,7 +35,7 @@
 
 .section1 {
     display: grid;
-    background-color: lightpink;
+    background-color: lightgray;
     grid-area: s1;
     grid-template-areas: 
     'n1'
@@ -79,7 +79,7 @@
 
 .div1 {
     grid-area: d1;
-    background-color:lightcoral;
+    background-color:lightgray;
 
     display: flex;
     justify-content: center;
@@ -88,12 +88,12 @@
 
 .div2 {
     grid-area: d2;
-    background-color: lightskyblue;
+    background-color: lightgray;
 }
 
 .footer1 {
     grid-area: f1;
-    background-color: lightgreen;
+    background-color: lightgray;
 }
 
 .section2 {
@@ -101,7 +101,8 @@
     grid-area: s2;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 50% 50%;
-    background-color: lightseagreen;
+    background-color: white
+;
     grid-template-areas: 
     'a1 a2'
     'a3 a4'
@@ -111,17 +112,17 @@
 
 .article1 {
     grid-area: a1;
-    background-color: lightblue;
+    background-color:lightgray;
 }
 
 .article2 {
     grid-area: a2;
-    background-color: lightpink;
+    background-color: white;
 }
 
 .article3 {
     grid-area: a3;
-    background-color: lightpink;
+    background-color: white;
 }
 
 .article4 {
@@ -209,7 +210,7 @@ top: 12px; right: 40px; */
 #body2 {
     display: grid;
 
-    width: 100vw;
+    width: 98,5vw;
     height: 100vh;
     grid-template-columns: 10% 30% 30% 30%;
     grid-template-rows: 16% 5% 200% 16%;
@@ -226,9 +227,10 @@ top: 12px; right: 40px; */
     display: grid;
     grid-gap: 5px;
     grid-area: s3;
+
     grid-template-rows: 20% 20% 20% 20% 20%;
     grid-template-columns: 50% 50%;
-    background-color: lightseagreen;
+    background-color: lightgray;
     grid-template-areas: 
     'a1 a2' 
     'a3 a4' 
@@ -259,4 +261,14 @@ top: 12px; right: 40px; */
 
 .div3 {
     grid-area: d3;
+    background-color: lightgray;
+}
+
+.logga {
+background-color: white;
+position: absolute;
+left: 20px;
+top:0px;
+width: 150px;
+height: 99px;
 }
